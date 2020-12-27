@@ -1,0 +1,39 @@
+#Hocam 2 tane program hazırladım. Birini de for gördükten sonra oluşturdum.
+
+
+boş = []
+
+ad = input("lütfen adınızı giriniz: ")
+boş.append(ad)
+
+soyad = input("lütfen soyadınızı giriniz: ")
+boş.append(soyad)
+
+yaş = input("lütfen yaşınızı giriniz: ")
+boş.append(yaş)
+
+işsis = input("Lütfen işletim sisteminizi giriniz: ")
+boş.append(işsis)
+
+bölüm = input("lütfen okuduğunuz bölümü giriniz: ")
+boş.append(bölüm)
+
+print(boş)
+print("Ad : {} \nSoyad : {} \nYaş : {} \nİşsis : {} \nbölüm : {}".format(ad, soyad, yaş, işsis, bölüm))
+print("Ad type : {} \nSoyad type : {} \nYaş type : {} \nİşsis type : {} \nBölüm type : {}".format(type(ad), type(soyad), 
+                                                                                                      type(yaş), type(işsis), 
+                                                                                                      type(bölüm)))
+#%%
+
+ad2 = input("lütfen adınızı giriniz: ")
+soyad2 = input("lütfen soyadınızı giriniz: ")
+yaş2 = input("lütfen yaşınızı giriniz: ")
+işsis2 = input("lütfen işletim sisteminizi giriniz: ")
+bölüm2 = input("lütfen okuduğunuz bölümü giriniz: ")
+
+info = [ad2, soyad2, yaş2, işsis2, bölüm2]
+
+
+for i in info:
+    print("Value is : {}".format(i) + 
+          " value type is: {}".format(type(i)))
