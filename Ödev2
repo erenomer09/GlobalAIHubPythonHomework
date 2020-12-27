@@ -1,0 +1,15 @@
+user_info = []
+
+ad = str(input("Adınız: "))
+soyad = str(input("Soyadınız: "))
+yaş = int(input("Yaşınız: "))
+yıl = int(input("Doğum Yılınız "))
+
+user_info = [ad, soyad, yaş, yıl]
+
+for info in user_info:
+      print(info)              
+if yaş <18:
+    print("You can't go out because it's too dangerous")
+elif yaş >18:
+    print("You can go out to the street")
